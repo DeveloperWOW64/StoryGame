@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{C2746AF6-985C-4496-AC1A-7681B2957794}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GameScene.cs">
     <Files>
-      <File FileName="GameScene.cs" Line="38" Column="1" />
-      <File FileName="../../../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Mac/Xamarin.Mac.Common.targets" Line="269" Column="3" />
+      <File FileName="GameScene.cs" Line="41" Column="68" />
+      <File FileName="../../../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Mac/Xamarin.Mac.Common.targets" Line="545" Column="21" />
       <File FileName="Main.cs" Line="14" Column="1" />
     </Files>
     <Pads>
@@ -10,7 +10,7 @@
         <State name="__root__">
           <Node name="StoryGame" expanded="True">
             <Node name="StoryGame" expanded="True">
-              <Node name="Main.cs" selected="True" />
+              <Node name="GameScene.cs" selected="True" />
             </Node>
           </Node>
         </State>
