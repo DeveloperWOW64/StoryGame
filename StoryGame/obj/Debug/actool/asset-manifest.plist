@@ -6,9 +6,9 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/computech/OneDrive/OneDrive/Coding/StoryGame/StoryGame/obj/Debug/actool/bundle/AppIcon.icns</string>
-			<string>/Users/computech/OneDrive/OneDrive/Coding/StoryGame/StoryGame/obj/Debug/actool/bundle/Assets.car</string>
-			<string>/Users/computech/OneDrive/OneDrive/Coding/StoryGame/StoryGame/obj/Debug/actool/partial-info.plist</string>
+			<string>/Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/obj/Debug/actool/bundle/AppIcon.icns</string>
+			<string>/Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/obj/Debug/actool/bundle/Assets.car</string>
+			<string>/Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/obj/Debug/actool/partial-info.plist</string>
 		</array>
 	</dict>
 </dict>
