@@ -23,6 +23,12 @@ namespace StoryGame
             myLabel.Position = new CGPoint(Frame.GetMidX(), Frame.GetMidY());
 
             AddChild(myLabel);
+            var labeltwo = SKLabelNode.FromFont("Trebuchet MS");
+
+            myLabel.Text = "Starting..";
+            myLabel.FontSize = 44;
+            myLabel.Position = new CGPoint(Frame.GetMinX(), Frame.GetMinY());
+
         }
 
         public override void MouseDown(NSEvent theEvent)
@@ -35,10 +41,6 @@ namespace StoryGame
 
             sprite.Position = location;
             sprite.SetScale(0.2f);
-
-            var action = SKAction.RotateByAngle(NMath.PI, 1.0);
-
-            sprite.RunAction(SKAction.RepeatActionForever(action));
 
             AddChild(sprite);
         }
