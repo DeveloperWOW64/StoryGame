@@ -16,10 +16,10 @@ namespace StoryGame
         public override void DidMoveToView(SKView view)
         {
             // Setup your scene here
-            var myLabel = SKLabelNode.FromFont("Chalkduster");
+            var myLabel = SKLabelNode.FromFont("Trebuchet MS");
 
-            myLabel.Text = "Test";
-            myLabel.FontSize = 65;
+            myLabel.Text = "Starting..";
+            myLabel.FontSize = 44;
             myLabel.Position = new CGPoint(Frame.GetMidX(), Frame.GetMidY());
 
             AddChild(myLabel);
