@@ -1,0 +1,10 @@
+/Users/computech/OneDrive/OneDrive/Coding/StoryGame/StoryGame/bin/Debug/StoryGame.exe
+/Users/computech/OneDrive/OneDrive/Coding/StoryGame/StoryGame/bin/Debug/StoryGame.pdb
+/Users/computech/OneDrive/OneDrive/Coding/StoryGame/StoryGame/obj/Debug/actool/_PartialAppManifest.items
+/Users/computech/OneDrive/OneDrive/Coding/StoryGame/StoryGame/obj/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/computech/OneDrive/OneDrive/Coding/StoryGame/StoryGame/obj/Debug/ibtool-manifests/MainMenu.nib
+/Users/computech/OneDrive/OneDrive/Coding/StoryGame/StoryGame/obj/Debug/ibtool/MainMenu.nib
+/Users/computech/OneDrive/OneDrive/Coding/StoryGame/StoryGame/obj/Debug/StoryGame.csprojAssemblyReference.cache
+/Users/computech/OneDrive/OneDrive/Coding/StoryGame/StoryGame/obj/Debug/StoryGame.csproj.CoreCompileInputs.cache
+/Users/computech/OneDrive/OneDrive/Coding/StoryGame/StoryGame/obj/Debug/StoryGame.exe
+/Users/computech/OneDrive/OneDrive/Coding/StoryGame/StoryGame/obj/Debug/StoryGame.pdb
