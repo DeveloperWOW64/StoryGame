@@ -34,7 +34,7 @@ namespace StoryGame
             var sprite = SKSpriteNode.FromImageNamed(NSBundle.MainBundle.PathForResource("Spaceship", "png"));
 
             sprite.Position = location;
-            sprite.SetScale(0.5f);
+            sprite.SetScale(0.2f);
 
             var action = SKAction.RotateByAngle(NMath.PI, 1.0);
 
