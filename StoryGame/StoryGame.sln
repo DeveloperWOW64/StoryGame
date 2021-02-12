@@ -22,4 +22,11 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D78558C4-5201-4A96-93F5-8E2C625C5B9E}
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		description = StoryGame: a game where you only need to enter a few character combos to listen to a fantastic story!
+		version = Alpha
+	EndGlobalSection
 EndGlobal

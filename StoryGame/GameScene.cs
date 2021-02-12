@@ -18,7 +18,7 @@ namespace StoryGame
             // Setup your scene here
             var myLabel = SKLabelNode.FromFont("Chalkduster");
 
-            myLabel.Text = "Hello, World!";
+            myLabel.Text = "Test";
             myLabel.FontSize = 65;
             myLabel.Position = new CGPoint(Frame.GetMidX(), Frame.GetMidY());
 
