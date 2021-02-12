@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="GameScene.cs">
     <Files>
       <File FileName="GameScene.cs" Line="41" Column="68" />
-      <File FileName="../../../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Mac/Xamarin.Mac.Common.targets" Line="545" Column="21" />
-      <File FileName="Main.cs" Line="14" Column="1" />
+      <File FileName="../../../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Mac/Xamarin.Mac.Common.targets" />
+      <File FileName="Main.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
