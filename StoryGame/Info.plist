@@ -9,7 +9,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>Alpha</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string></string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.14</string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -28,5 +28,7 @@
 	<string>MainMenu</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>LSApplicationCategoryType</key>
+	<string>Games</string>
 </dict>
 </plist>

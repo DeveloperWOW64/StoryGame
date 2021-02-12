@@ -1,0 +1,1 @@
+2021-02-12 19:19:04.112 StoryGame[2848:64758] error: mono_coop_mutex_lock Cannot transition thread 0x10f4e6e00 from STATE_BLOCKING with DO_BLOCKING

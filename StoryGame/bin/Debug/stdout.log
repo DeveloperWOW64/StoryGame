@@ -1,0 +1,68 @@
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a abrt while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x1007a22e9 - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : mono_dump_native_crash_info
+	0x100795e1e - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : mono_handle_native_crash
+	0x1007a18af - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : sigabrt_signal_handler
+	0x7fff2062ad7d - /usr/lib/system/libsystem_platform.dylib : _sigtramp
+	0x10f4b4830 - Unknown
+	0x7fff20539720 - /usr/lib/system/libsystem_c.dylib : abort
+	0x1006ac1d0 - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : _ZL12log_callbackPKcS0_S0_iPv
+	0x1009c57fe - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : monoeg_g_logv_nofree
+	0x1009c58b2 - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : monoeg_g_log
+	0x1009b63cb - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : mono_threads_transition_do_blocking
+	0x1009b3a33 - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : mono_threads_enter_gc_safe_region_unbalanced_with_info
+	0x100939236 - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : mono_coop_mutex_lock
+	0x100934023 - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : mono_thread_execute_interruption
+	0x10093adad - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : mono_thread_execute_interruption_ptr
+	0x10093b273 - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : self_interrupt_thread
+	0x10 - Unknown
+	0x1006b48dc - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : xamarin_invoke_trampoline
+	0x1006b7349 - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : xamarin_arch_trampoline
+	0x1006b854e - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : xamarin_x86_64_common_trampoline
+	0x7fff6ff9d686 - /System/Library/Frameworks/SpriteKit.framework/Versions/A/SpriteKit : -[SKScene _update:]
+	0x7fff6ff61c4f - /System/Library/Frameworks/SpriteKit.framework/Versions/A/SpriteKit : -[SKView _update:]
+	0x7fff6ff5d1d4 - /System/Library/Frameworks/SpriteKit.framework/Versions/A/SpriteKit : __51-[SKView _vsyncRenderForTime:preRender:postRender:]_block_invoke.346
+	0x7fff6ff5c5a5 - /System/Library/Frameworks/SpriteKit.framework/Versions/A/SpriteKit : -[SKView _vsyncRenderForTime:preRender:postRender:]
+	0x7fff6ff5f97b - /System/Library/Frameworks/SpriteKit.framework/Versions/A/SpriteKit : __29-[SKView setUpRenderCallback]_block_invoke
+	0x7fff6ffbf46c - /System/Library/Frameworks/SpriteKit.framework/Versions/A/SpriteKit : -[SKDisplayLink _callbackForNextFrame:]
+	0x7fff6ffbf63d - /System/Library/Frameworks/SpriteKit.framework/Versions/A/SpriteKit : ___Z22_cvDisplayLinkCallbackP15__CVDisplayLinkPK11CVTimeStampS3_yPyPv_block_invoke
+	0x7fff2043a5dd - /usr/lib/system/libdispatch.dylib : _dispatch_call_block_and_release
+	0x7fff2043b7c7 - /usr/lib/system/libdispatch.dylib : _dispatch_client_callout
+	0x7fff20447b86 - /usr/lib/system/libdispatch.dylib : _dispatch_main_queue_callback_4CF
+	0x7fff2071b970 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+	0x7fff206dd852 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRunLoopRun
+	0x7fff206dc6ce - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : CFRunLoopRunSpecific
+	0x7fff28964630 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : RunCurrentEventLoopInMode
+	0x7fff2896442c - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : ReceiveNextEventCommon
+	0x7fff2896414f - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : _BlockUntilNextEventMatchingListInModeWithFilter
+	0x7fff22efc9b1 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : _DPSNextEvent
+	0x7fff22efb177 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+	0x7fff22eed68a - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication run]
+	0x7fff22ec196f - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : NSApplicationMain
+	0x1068dfae7 - Unknown
+	0x1068df79b - Unknown
+	0x102e9883b - Unknown
+	0x102e989b1 - Unknown
+	0x1007ad372 - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : mono_jit_runtime_invoke
+	0x1008e2747 - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : mono_runtime_invoke_checked
+	0x1008eac0e - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : do_exec_main_checked
+	0x100701d6e - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : mono_jit_exec
+	0x100704fd5 - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : mono_main
+	0x1006b8edc - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : xamarin_main
+	0x1006b9d04 - /Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MacOS/StoryGame : main
+	0x7fff20601621 - /usr/lib/system/libdyld.dylib : start
+
+=================================================================
+	Telemetry Dumper:
+=================================================================
+Could not exec mono-hang-watchdog, expected on path '/Users/computech/OneDrive/OneDrive/Coding/Repositories/StoryGame/StoryGame/bin/Debug/StoryGame.app/Contents/MonoBundle/../bin/mono-hang-watchdog' (errno 2)
