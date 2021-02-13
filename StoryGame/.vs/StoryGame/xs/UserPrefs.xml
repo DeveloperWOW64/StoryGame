@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{C2746AF6-985C-4496-AC1A-7681B2957794}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="GameScene.cs">
     <Files>
-      <File FileName="GameScene.cs" Line="47" Column="2" />
+      <File FileName="GameScene.cs" Line="48" Column="1" />
       <File FileName="../../../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Mac/Xamarin.Mac.Common.targets" />
       <File FileName="Main.cs" />
     </Files>
