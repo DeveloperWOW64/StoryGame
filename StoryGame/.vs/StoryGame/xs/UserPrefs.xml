@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="GameScene.cs">
     <Files>
       <File FileName="GameScene.cs" Line="47" Column="2" />
-      <File FileName="../../../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Mac/Xamarin.Mac.Common.targets" Line="1" Column="1" />
+      <File FileName="../../../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Mac/Xamarin.Mac.Common.targets" />
       <File FileName="Main.cs" />
     </Files>
     <Pads>
@@ -19,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.StoryGame PreferredExecutionTarget="Test1" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <Debugger.DebugSourceFolders />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
